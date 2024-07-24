@@ -1,4 +1,4 @@
-<style>
+
 .container{
  display: grid;
  justify-content: center;
@@ -30,15 +30,12 @@ align-items: center; /* Center vertically */
 
 
 
-  .box 1{
+  /* .box {
     grid columns:start span 1;
-    grid row:start span 1;
+    grid row:start span ;
 
-  }
-  .box 2{
-    grid columns: start span 1;
-    grid row:start span 1;
-  }
+  } */
+ 
   h1 {
     text-align: center;
 }
@@ -59,6 +56,4 @@ p {
 form{
     text-align: center;
 }
-</style>
-
 
