@@ -1,0 +1,64 @@
+<style>
+.container{
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+ margin-left: 300px;
+ margin-right: 300px;
+}     
+
+
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr; /* Define your columns */
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+}
+
+ .box {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border: 5px solid gray;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+  }
+
+
+
+  .box 1{
+    grid columns:start span 1;
+    grid row:start span 1;
+
+  }
+  .box 2{
+    grid columns: start span 1;
+    grid row:start span 1;
+  }
+  h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+</style>
+
+
